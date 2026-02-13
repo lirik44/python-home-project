@@ -26,4 +26,4 @@ jobs:
         run: playwright install --with-deps chromium
 
       - name: Run tests
-        run: pytest tests/ -v -o addopts="--alluredir=allure-results"
+        run: pytest tests/ -v
